@@ -1,0 +1,168 @@
+/*Google fonts*/
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+body {
+  padding: 0;
+  margin: 0;
+}
+form {
+  margin: 2em auto;
+  position: relative;
+  background: #00000057;
+  padding: 2em 3em;
+}
+form h4 {
+  font-family: "EB Garamond", serif;
+  color: #5900ff;
+}
+form input[type="text"]::placeholder {
+  font-family: "EB Garamond", serif;
+  color: #8f8f8f;
+}
+.row.two {
+  background: #fff;
+  margin: 1em auto;
+  color: #5900ff;
+  font-family: "EB Garamond", serif;
+  border-bottom: 0.2em solid #00ffff3f;
+  font-weight: bold;
+}
+form .input-group-text {
+  color: #5900ff;
+  cursor: pointer;
+  font-family: "EB Garamond", serif;
+}
+form .input-group-text i {
+  font-size: 2em;
+}
+form .form-control {
+  margin: 1em;
+  height: 3em;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+form .form-control:focus {
+  box-shadow: 0;
+}
+
+form h2 {
+  font-family: "EB Garamond", serif;
+  color: #5900ff;
+  font-weight: bold;
+}
+
+.col.one {
+  background-color: #00ffff3f;
+  padding: 0.5em;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: #00ffff3f;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 1em auto;
+  height: 3em;
+  width: 100%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.buttonz {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0.1em auto;
+  height: 3em;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  font-family: "EB Garamond", serif;
+  background-color: white;
+  color: black;
+  border: 2px solid #5900ff;
+}
+
+.button1:hover {
+  background-color: #5900ff;
+  color: white;
+}
+
+.button2 {
+  font-family: "EB Garamond", serif;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 0.2em solid #5020a8;
+  max-width: 100%;
+}
+
+.button2:hover {
+  background-color: #00ffff3f;
+  color: white;
+}
+
+.col-6.col-sm-8.col-lg-10 {
+  font-size: 1.5em;
+}
+
+.hi {
+  padding: 0.2em;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 5;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #6d4aad94;
+}
+
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark {
+  background-color: #6cc273;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container1 input:checked ~ .checkmark {
+  background-color: #5020a8;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.container1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
