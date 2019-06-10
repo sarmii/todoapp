@@ -1,1 +1,1 @@
-web: gunicorn forge.wsgi
+web: node server.js
